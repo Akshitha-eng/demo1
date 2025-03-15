@@ -4,7 +4,7 @@ const initialState = {
   user: null,
 };
 
-// Sample reducer (Replace with actual reducers)
+
 const userReducer = (state = initialState, action) => {
   switch (action.type) {
     case "LOGIN":
@@ -17,7 +17,7 @@ const userReducer = (state = initialState, action) => {
 };
 
 export const rootReducer = combineReducers({
-  user: userReducer, // ✅ Ensure at least one reducer is provided
+  user: userReducer, 
 });
 
 export default rootReducer;

@@ -1,8 +1,8 @@
 import { configureStore } from "@reduxjs/toolkit";
-import rootReducer from "./reducers"; // ✅ Import the combined reducers
+import rootReducer from "./reducers"; 
 
 export const store = configureStore({
-  reducer: rootReducer, // ✅ Pass the valid reducers here
+  reducer: rootReducer, 
 });
 
 export default store;
